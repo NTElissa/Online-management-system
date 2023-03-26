@@ -2,22 +2,22 @@
   "development": {
     "username": "postgres",
     "password": "12345",
-    "database": "my_brandBlogs",
+    "database": "db_management",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
-    "password": "12345",
-    "database": "my_brandBlogs",
+    "username": "root",
+    "password": null,
+    "database": "database_test",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "mysql"
   },
   "production": {
-    "username": "postgres",
-    "password": "12345",
-    "database": "my_brandBlogs",
+    "username": "root",
+    "password": null,
+    "database": "database_production",
     "host": "127.0.0.1",
-    "dialect": "postgres"
+    "dialect": "mysql"
   }
 }

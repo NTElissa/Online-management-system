@@ -1,6 +1,5 @@
-const express =require ('express');
-const userController = require('./controller/userController');
-
+import express from 'express';
+import userController from './controller/userController';
 
 const app = express();
 const port = process.env.PORT || 3000;
